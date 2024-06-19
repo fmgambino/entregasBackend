@@ -1,0 +1,14 @@
+body {
+    background-color: #fff;
+    color: #000;
+}
+
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+
+/* Ajustes para la tarjeta de producto */
+.card {
+    margin: 15px;
+}
