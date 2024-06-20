@@ -52,7 +52,7 @@ function agregarProductos() {
                         <button class="btn btn-primary" onclick="agregarAlCarrito(${index})">Añadir al carrito</button>
                     </div>
                 </div>
-                <br>
+                <br> 
             </div>`;
         productList.innerHTML += card;
     });
