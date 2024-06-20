@@ -28,6 +28,12 @@ const productos = [
         nombre: "NBA 2K24",
         descripcion: "Simulador de baloncesto con modos de juego mejorados y gráficos realistas.",
         precio: 65.00
+    },
+    {
+        imagen: "https://thebest.com.ar/images/product_image/10790/0?dpr=2.625&fit=contain&h=400&q=80&version=3ab91&w=400",
+        nombre: "NBA 2K24",
+        descripcion: "Simulador de baloncesto con modos de juego mejorados y gráficos realistas.",
+        precio: 65.00
     }
 ];
 
@@ -46,6 +52,7 @@ function agregarProductos() {
                         <button class="btn btn-primary" onclick="agregarAlCarrito(${index})">Añadir al carrito</button>
                     </div>
                 </div>
+                <br>
             </div>`;
         productList.innerHTML += card;
     });
